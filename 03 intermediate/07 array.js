@@ -12,7 +12,7 @@ states[0] = "punjab";
 console.log(states[0]);
 // console.log(states.)
 
-var user = ["Hitrsh",3,true]   //mixed data types are allowed in array.
+var user = ["Hitrsh",3,true];   //mixed data types are allowed in array.
 console.log(user)
 
 
@@ -29,9 +29,12 @@ user.shift();  //removes element from front of array.
 
 
 
+user.push("anwi");     //adds element to the end of the array
+console.log(user);
+
 
 console.log(user.indexOf("Hitrsh"));     //returns the index of the element
 console.log(user.indexOf("akash"));     //returns -1
 
 
-console.log(Array.from("hitesh"));  //converts whtever data type into n array 
+console.log(Array.from("hitesh"));  //converts whtever data type into  a n array  ex- string into array of each char
