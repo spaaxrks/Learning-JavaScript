@@ -25,4 +25,8 @@ console.log("\n");
 for(let i=0;i<mystates.length;i++){
     if(typeof mystates[i] !== "string") continue; //skips iteration
     console.log(mystates[i]);
-}
+};
+
+
+//note in for loop we mostly use let since it is block scoped and outside the scope it wont affect the code
+
