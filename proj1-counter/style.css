@@ -1,0 +1,9 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;          /*here min-hieght makes the container occupy the whole screen so that allighn items centres it */
+    font-size: 44px;
+
+}
