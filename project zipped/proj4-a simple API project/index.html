@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Image generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <div id="main">
+
+        <h1>Pokedex</h1>
+        <input type="text" placeholder="Enter the Pokemon" id="inputpokemonname">
+        <button onclick="Fetchpokemon()">submit</button>
+        <br>
+
+        <div id="result">
+            <h2 id="displaypokemonname"></h2>
+            <h2 id="pokemonweight"></h2>
+            <img src="" alt="pokemon" style="display: none;" id="pokemonimg">      <!-- we added a inline style for dispaly none so tht the alt doesnt print initially we will cahnge tht propertly later using js -->
+        </div>
+
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
